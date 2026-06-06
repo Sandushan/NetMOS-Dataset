@@ -1,5 +1,9 @@
 # Dataset Files for the Paper: *NetMOS: Topology-Aware VoIP MOS Prediction via Attention–Recurrent GNNs*
 
+## Dataset Access
+
+Access is granted upon request. Use this [form](https://forms.gle/GLofNUUgRDjrAt9K9) to request access for the dataset.
+
 ## Dataset Format
 
 Each sample is stored as an individual PyTorch (`.pt`) file and can be loaded using the `torch.load()` function.
