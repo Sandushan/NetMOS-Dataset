@@ -9,8 +9,8 @@ Each sample is stored as an individual PyTorch (`.pt`) file and can be loaded us
 
 `x` is a dictionary containing network topology information and traffic-related features:
 
-* `link_features`: Tensor of shape `(num_links, link_feature_dim)` representing per-link features.
-* `flow_features`: Tensor of shape `(num_flows, flow_feature_dim)` representing per-flow features.
+* `link_features`: Tensor containing link features.
+* `flow_features`: Tensor containing flow features.
 * `flow_to_link`: Dictionary mapping each flow to the list of links traversed by that flow.
 * `link_to_flow`: Dictionary mapping each link to the list of flows traversing that link.
 * `voip_flows`: Indices of VoIP flows for which Mean Opinion Score (MOS) values are computed.
